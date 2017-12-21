@@ -17,7 +17,7 @@ function pressIt(){
     console.log(key.which)
   if(key.which == 71){
       alert('g was pressed');
-  } 
+  }
 });
 }
 
