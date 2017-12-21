@@ -1,4 +1,3 @@
-
 function getIt(){
   debugger;
   $('p').on(click, function() {
@@ -9,7 +8,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(){
     $( "img" ).addClass( "tasty" )
-  }
+  })
 }
 
 
@@ -25,9 +24,9 @@ function pressIt(){
 function submitIt(){
   $('form submit').on('submit', function() {
       alert('Your form is going to be submitted now.');
-  }
-});
-}
+  })
+};
+
 
 $(document).ready(function(){
   debugger;
@@ -39,4 +38,4 @@ $(document).ready(function(){
 
   submitIt();
 
-}
+})
