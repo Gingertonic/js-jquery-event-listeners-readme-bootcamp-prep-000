@@ -1,6 +1,6 @@
 function getIt(){
   debugger;
-  $('p').on(click, function() {
+  $('p').on('click', function() {
     alert("Hey!");
   })
 }
